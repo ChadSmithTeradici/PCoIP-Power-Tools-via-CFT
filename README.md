@@ -3,7 +3,7 @@ Deploy a Teradici AWS marketplace AMIs with additioanl tools when you deploy wit
 
 # CloudFormation Templates
 ## Introduction
-This directory contains CloudFormation templates and related scripts for deploying Teradici PCoIP components on AWS. These templates can be downloaded and optionally modified before use.
+This directory contains CloudFormation templates and related scripts for deploying HP Anyware (PCoIP) components on AWS. These templates can be downloaded and optionally modified before use.
 
 __Note: These templates are suitable for creating reference deployments for demonstration, evaluation, or development purposes. The infrastructure created may not meet the reliability, availability, or security requirements of your organization.__
 

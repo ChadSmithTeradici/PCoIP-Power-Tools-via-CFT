@@ -12,7 +12,7 @@ CloudFormation templates can be uploaded to the AWS CloudFormation via the conso
 For more information about CloudFormation, please visit https://aws.amazon.com/cloudformation/
 
 ## List of Templates
-- [Perforce clients tools on PCoIP Ultra Marketplace AMI](#pcoip-pf-cft.yaml)
+- [Perforce clients tools on PCoIP Ultra Marketplace AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-PF-CFT/PCoIP-PF-CFT.yml)
 - [Perforce clients tools on  EPIC Unreal 4 PCoIP Ultra Marketplace AMI](#pcoip-ur4-pf-cft.yaml)
 ---
 ## CASManager.yaml

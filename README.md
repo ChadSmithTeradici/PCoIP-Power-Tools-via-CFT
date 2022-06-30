@@ -13,7 +13,8 @@ For more information about CloudFormation, please visit https://aws.amazon.com/c
 
 ## List of Templates
 - [Perforce clients tools on PCoIP Ultra Marketplace AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-PF-CFT/PCoIP-PF-CFT.yml)
-- [Perforce clients tools on  EPIC Unreal 4 PCoIP Ultra Marketplace AMI](#pcoip-ur4-pf-cft.yaml)
+- [Perforce clients tools on  EPIC Unreal 4 PCoIP Ultra Marketplace AMI]
+- [NVIDIA Omniverse and CloudXR tools on PCoIP Ultra Marketplace AMI]
 ---
 ## CASManager.yaml
 Creates a Teradici CAS Manager server along with a HashiCorp Vault server (using DynamoDB as the storage backend) and a Document DB cluster as the Vault and Database backends for CAS Manager, respectively. All passwords are generated and stored in AWS Secrets Manager. Please see the "Output" tab in CloudFormation for URL and initial password for the CAS Manager. Creation time is approximately 25 mins.

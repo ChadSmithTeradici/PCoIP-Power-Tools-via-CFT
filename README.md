@@ -1,4 +1,4 @@
-# PCoIP-Power-Tools-client-via-CFT
+# PCoIP-Power-Tools-via-CFT
 Deploy a Teradici AWS marketplace AMIs with additioanl tools when you deploy with a Cloud Formation templates
 
 # CloudFormation Templates

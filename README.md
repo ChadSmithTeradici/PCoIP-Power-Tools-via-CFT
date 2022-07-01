@@ -20,8 +20,8 @@ For more information about CloudFormation, please visit https://aws.amazon.com/c
 Creates a HP Anyware PCoIP Ultra Windows 2019 Perforce client tools and extra utilites. 
 
 ### Requirements
-- Must already of accepted Terms and Conditions of [HP Anyware PCoIP Ultra on Windows Server 2019](https://aws.amazon.com/marketplace/pp/prodview-boeg6hiewus3o)
-- must be deployed in an existing VPC with at least 1 public or private subnet;
+- Must already of accepted Terms and Conditions of [HP Anyware PCoIP Ultra on Windows Server 2019](https://aws.amazon.com/marketplace/pp/prodview-boeg6hiewus3o) on AWS.
+- must be deployed in an existing VPC with at least 1 public or private subnet.
 - an existing EC2 Key pair
 
 ### Quick create stack

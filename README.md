@@ -3,7 +3,7 @@ Deploy a Teradici AWS marketplace AMIs with additioanl tools when you deploy wit
 
 # CloudFormation Templates
 ## Introduction
-Have all your most commonly used tools and utilities for your specific workflow pre-installed available on your HP Anyware NVIDIA powered AWS instance. 
+Have all your most commonly used tools and utilities per industry workflow available in a single step with the performacce of HP Anyware PCoIP Ultra. 
 
 This directory contains CloudFormation templates and related scripts for deploying HP Anyware (PCoIP) components on AWS. These templates can be downloaded and optionally modified before use. Select AMIs based on Game Development with Perforce, Blender  or Unreal 
 

@@ -28,3 +28,16 @@ Creates a HP Anyware PCoIP Ultra Windows 2019 Perforce client tools and extra ut
 
 ### Quick create stack
 https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://teradici-public.s3.amazonaws.com/CloudFormation/CASManager/CASManager.yaml&stackName=casm
+
+---
+## Perforce client tools on Unreal 4 engine PCoIP Ultra Marketplace AMI
+Creates a HP Anyware PCoIP Ultra Windows 2019 with Epic unreal 4, Perforce client tools and extra utilites. 
+
+### Requirements
+- Must already of accepted Terms and Conditions of [HP Anyware PCoIP Ultra on Windows Server 2019 with Unreal 4](https://aws.amazon.com/marketplace/pp/prodview-mj35z5mqzmanm?sr=0-4&ref_=beagle&applicationId=AWSMPContessa) on AWS.
+- must be deployed in an existing VPC with at least 1 public or private subnet.
+- an existing EC2 Key pair
+- An existing Unreal accoutn (or) sign-in for a new account before access is granted
+
+### Quick create stack
+https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://teradici-public.s3.amazonaws.com/CloudFormation/CASManager/CASManager.yaml&stackName=casm

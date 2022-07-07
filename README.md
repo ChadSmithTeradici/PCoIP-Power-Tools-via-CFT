@@ -5,7 +5,7 @@ Deploy a Teradici AWS marketplace AMIs with additioanl tools when you deploy wit
 ## Introduction
 Have all your most commonly used tools and utilities per industry workflow available in a single step with the performacce of HP Anyware PCoIP Ultra. 
 
-This directory contains CloudFormation templates and related scripts for deploying HP Anyware (PCoIP) components on AWS. These templates can be downloaded and optionally modified before use. Select AMIs based on Game Development with Perforce, Blender  or Unreal 
+This directory contains CloudFormation templates and related scripts for deploying HP Anyware (PCoIP) components on AWS. These templates can be downloaded and optionally modified before use.  Select AMIs based on Game Development with Perforce, Blende or Unreal, Cloud Access Connector for brokering functionality or Nvidia Omniverse / CloudXR software. 
 
 __Note: These templates are suitable for creating reference deployments for demonstration, evaluation, or development purposes. The infrastructure created may not meet the reliability, availability, or security requirements of your organization.__
 
@@ -14,6 +14,7 @@ CloudFormation templates can be uploaded to the AWS CloudFormation via the conso
 For more information about CloudFormation, please visit https://aws.amazon.com/cloudformation/
 
 ## List of Templates
+- [HP Anyware Cloud Access Connector AMI]
 - [Perforce clients tools on PCoIP Ultra Marketplace AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-PF-CFT/PCoIP-PF-CFT.yml)
 - [Perforce clients tools on  EPIC Unreal 4 PCoIP Ultra Marketplace AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-UR4-PF-CFT/PCoIP-UR4-PF-CFT.yml)
 - [NVIDIA Omniverse and CloudXR tools on PCoIP Ultra Marketplace AMI]

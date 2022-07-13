@@ -1,6 +1,25 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Template to deploy a NVIDIA enabled EC2 instance from AWS Marketplace AMI that has Teradici PCoIP Ultra software installed. Build also includes Perforce client software. AWS Instance is billed hourly.
-   
+Metadata: 
+  AWS::CloudFormation::Interface: 
+    ParameterGroups: 
+      - 
+        Label: 
+          default: "Network Configuration"
+        Parameters: 
+          - VpcId
+          - SubnetId
+      - 
+        Label: 
+          default: "Amazon EC2 Configuration"
+        Parameters: 
+          - InstanceType
+          - KeyName
+      - 
+        Label: 
+          default: "Security Group Configuration"
+        Parameters: 
+          - RDPLocation   
 Parameters:
   VpcId:
     Type: 'AWS::EC2::VPC::Id'

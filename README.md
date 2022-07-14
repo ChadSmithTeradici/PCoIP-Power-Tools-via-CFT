@@ -15,6 +15,7 @@ For more information about CloudFormation, please visit https://aws.amazon.com/c
 
 ## List of Templates
 - [HP Anyware Cloud Access Connector AMI- EVAL](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/HPAnyware-CAC/HPAnyware-CAC-Eval.yml)
+- [HP Anyware Cloud Access Connector AMI - PROD]
 - [Perforce clients tools on PCoIP Ultra Marketplace AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-PF-CFT/PCoIP-PF-CFT.yml)
 - [Perforce clients tools on  EPIC Unreal 4 PCoIP Ultra Marketplace AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-UR4-PF-CFT/PCoIP-UR4-PF-CFT.yml)
 - [NVIDIA Omniverse and CloudXR tools on PCoIP Ultra Marketplace AMI]

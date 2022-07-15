@@ -129,6 +129,15 @@ Resources:
             !Sub |         
                   <powershell>
                   $ErrorActionPreference="Stop"
+                  # Set the location to the registry for PCoIP Setting
+                  Set-Location -Path 'HKLM:\SOFTWARE\Policies\Teradici\PCoIP\pcoip_admin'
+                  # Create new reg files for PCoIP Ultra
+                  New-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Teradici\PCoIP\pcoip_admin' -Name 'pcoip.event_filter_mode' -Value "00000003" -PropertyType dword -Force
+                  New-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Teradici\PCoIP\pcoip_admin' -Name 'pcoip.ultra' -Value "00000003" -PropertyType dword -Force
+                  New-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Teradici\PCoIP\pcoip_admin' -Name 'pcoip.ultra_offload_mpps' -Value "00000010" -PropertyType dword -Force
+                  # Get out of the Registry
+                  Pop-Location
+                  # remove unneeded desktop shortcuts
                   # remove unneeded desktop shortcuts
                   Remove-Item "C:\Users\Public\Desktop\Teradici PCoIP Clients.url"
                   Remove-Item "C:\Users\Public\Desktop\Teradici Website.url"

@@ -1,0 +1,208 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Template to deploy a Black Magic Resolve 17 in AWS with BYOL PCoIP Agent installed, AWS Instance is billed hourly.
+Metadata: 
+  AWS::CloudFormation::Interface: 
+    ParameterGroups: 
+      - 
+        Label: 
+          default: "Network Configuration"
+        Parameters: 
+          - VpcId
+          - SubnetId
+      - 
+        Label: 
+          default: "Amazon EC2 Configuration"
+        Parameters: 
+          - InstanceType
+          - KeyName
+      - 
+        Label: 
+          default: "Security Group Configuration"
+        Parameters: 
+          - SSHLocation
+          - SecurityGroup
+      - 
+        Label: 
+          default: "PCoIP Configuration parameters"
+        Parameters: 
+          - PCoIPRegKey
+          
+Parameters:
+  VpcId:
+    Type: 'AWS::EC2::VPC::Id'
+    Description: VPC which the Security Group will be created in.
+  SubnetId:
+    Type: 'AWS::EC2::Subnet::Id'
+    Description: Public subnet is needed for most deployments, select a subnet which to launch an instance in.
+  InstanceType:
+    Type: String
+    Description: Select a AWS instance type for your workload.
+    Default: g4dn.2xlarge
+    AllowedValues:
+      - g4dn.2xlarge
+      - g4dn.4xlarge
+      - g4dn.8xlarge
+      - g5.2xlarge
+      - g5.4xlarge
+      - g5.8xlarge
+    ConstraintDescription: Understand hardware requirements of your Black Magic Resolve 17 workflow.
+  KeyName:
+    Description: SSH Keypair to login to the instance
+    Type: AWS::EC2::KeyPair::KeyName
+  SSHLocation:
+    Description: The IP address that can SSH to instances. Use 'What is my IP' to get your public IP then add /32 to end of IP.
+    Type: String
+    MinLength: '9'
+    MaxLength: '18'
+    Default: 0.0.0.0/0
+    AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
+    ConstraintDescription: must be a valid IP CIDR range of the form x.x.x.x/x.  
+  RegistrationCode:
+      Type: String
+      Description: Your organizations PCoIP registration code to apply to this instance running in AWS.
+  User:
+      Type: String
+      Description: Name of local user to run PCoIP session under. Note user will be set as local administrator of instance as well
+      MinLength: 3
+      MaxLength: 64
+  Password:
+      Type: String
+      Description: The password that will be assigned. It is recommended to change password after initial login.
+      NoEcho: true
+      MinLength: 3
+      MaxLength: 64
+      AllowedPattern: '[a-zA-Z][a-zA-Z0-9]*'
+Mappings:
+  RegionMap:
+    af-south-1:
+      AMI: ami-0df619df0bc14f954
+    ap-east-1:
+      AMI:  ami-0bf3982e88d94b8ed
+    ap-northeast-1:
+      AMI: ami-012050b15658f9372
+    ap-northeast-2:
+      AMI:  ami-0f95bd0136e91a0c0
+    ap-northeast-3:
+      AMI: NOT_SUPPORTED
+    ap-south-1:
+      AMI: ami-02a5c29ad85c93e4c
+    ap-southeast-1:
+      AMI: ami-012050b15658f9372
+    ap-southeast-2:
+      AMI: ami-05ddbcd6603f32c01
+    ca-central-1:
+      AMI: NOT_SUPPORTED
+    eu-central-1:
+      AMI: NOT_SUPPORTED
+    eu-north-1:
+      AMI: ami-048d3edd99067aa69
+    eu-south-1:
+      AMI: ami-0135ead373d426c13
+    eu-west-1:
+      AMI: ami-068542f4d6a99fbd9
+    eu-west-2:
+      AMI: ami-025901c1c197439e4
+    eu-west-3:
+      AMI: ami-099d37fc9873ed3d6
+    me-south-1:
+      AMI: ami-0e2807cf5bc0874f4
+    sa-east-1:
+      AMI: ami-0ba415f3ffb066ad8
+    us-east-1:
+      AMI: ami-0e636238ee4862bf3
+    us-east-2:
+      AMI: ami-0ff02789bb2616f77
+    us-west-1:
+      AMI: ami-0e699d5a129798aee
+    us-west-2:
+      AMI: ami-08749105f8425a09c
+Resources:
+  HPAnyWareCACInstance:
+    Type: 'AWS::EC2::Instance'
+    Properties: 
+      ImageId: !FindInMap
+        - RegionMap
+        - !Ref 'AWS::Region'
+        - AMI
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyName
+      SecurityGroupIds: 
+        - !Ref PCoIPSecurityGroup
+      SubnetId: !Ref SubnetId
+      Tags:
+         - Key: Name
+           Value: 'HPAnyWare-CAC-Instance'
+      BlockDeviceMappings:
+         - DeviceName: /dev/sda1
+           Ebs:
+             VolumeType: gp2
+             VolumeSize: 200
+      UserData:
+         Fn::Base64:
+            !Sub |         
+                  #!/bin/bash
+                  TERADICI_DOWNLOAD_TOKEN = "yj39yHtgj68Uv2Qf"
+                  TERADICI_REPO_SETUP_SCRIPT_URL = "https://dl.teradici.com/$TERADICI_DOWNLOAD_TOKEN/pcoip-agent/cfg/setup/bash.rpm.sh"
+                  sudo -y yum remove nice-dcv-server nice-xdcv nice-dcv-gl nice-dcv-gltest nice-dcv-simple-external-authenticator
+                  curl --retry --retry-delay 5 -u $TERADICI_DOWNLOAD_TOKEN -1slf $TERADICI_REPO_SETUP_SCRIPT_URL | bash
+                  sudo yum install usb-vhci
+                  sudo yum install pcoip-agent-graphics
+                  /usr/sbin/pcoip-register-host --registration-code="${RegistrationCode}" && break" \
+                  sudo adduser ${User}
+                  sudo passwd $(Password}
+                  sudo usermod -aG wheel ${User}
+                 
+  PCoIPSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      VpcId: !Ref VpcId
+      GroupDescription: SG to allow communications for PCoIP Protocol
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: '22'
+          ToPort: '22'
+          CidrIp: !Ref SSHLocation
+          Description: 'Allow SSH traffic for administration'
+        - IpProtocol: tcp
+          FromPort: '4172'
+          ToPort: '4172'
+          CidrIp: '0.0.0.0/0'
+          Description: 'Allow encrypted PCoIP pixel traffic'
+        - IpProtocol: udp
+          FromPort: '4172'
+          ToPort: '4172'
+          CidrIp: '0.0.0.0/0'
+          Description: 'Allow encrypted PCoIP pixel traffic'
+        - IpProtocol: tcp
+          FromPort: '443'
+          ToPort: '443'
+          CidrIp: '0.0.0.0/0'
+          Description: 'Allow PCoIP session establishment authentication'
+        - IpProtocol: tcp
+          FromPort: '60443'
+          ToPort: '60443'
+          CidrIp: '0.0.0.0/0'
+          Description: 'Alternative Port for PCoIP session establishment authentication'
+        - IpProtocol: udp
+          FromPort: '64172'
+          ToPort: '64172'
+          CidrIp: '0.0.0.0/0'
+          Description: 'Allow PCoIP collaboration sessions'
+      Tags:
+        - Key: Name
+          Value: HPAnyWare-CAC
+Outputs:
+  HPAnyWareCACInstanceId:
+    Description: HPAnyWare-CAC instance id 
+    Value: !Ref HPAnyWareCACInstance
+  PrivateIP:
+    Description: Private IP address of instance
+    Value: !GetAtt
+      - HPAnyWareCACInstance
+      - PrivateIp
+  PublicIP:
+    Description: Public IP address of instance
+    Value: !GetAtt
+      - HPAnyWareCACInstance
+      - PublicIp
+  

@@ -96,47 +96,47 @@ Parameters:
 Mappings:
   RegionMap:
     af-south-1:
-      AMI: ami-0ec210ef9f4c11825
+      AMI: ami-0dd058c7ffcd3d4fe
     ap-east-1:
-      AMI: ami-00baacaab0a614366
+      AMI: ami-0d23ca25bdd1b476e
     ap-northeast-1:
-      AMI: ami-009cb0aaec90b8ba7
+      AMI: ami-00a0116f955c925f0
     ap-northeast-2:
-      AMI: ami-057e9baf101536eb5
+      AMI:  ami-09287bb437b1d6b1b
     ap-northeast-3:
-      AMI: ami-0d7a85251ac064960
+      AMI: ami-0343cd39a0f2c41d2
     ap-south-1:
-      AMI: ami-0e3a9ffb834f9aff8
+      AMI: ami-06ec991303e2a92a4
     ap-southeast-1:
-      AMI: ami-0e13ba2eb52a4d9fa
+      AMI: ami-083bd8e9203ccc5c0
     ap-southeast-2:
-      AMI: ami-005745aa1052331f5
+      AMI: ami-00bee11bb3fa28ef5
     ca-central-1:
       AMI: NOT_SUPPORTED
     eu-central-1:
       AMI: NOT_SUPPORTED
     eu-north-1:
-      AMI: ami-045c3f9b19b1df4cd
+      AMI: ami-02a3ee835e4d24af3
     eu-south-1:
-      AMI: ami-05c829c6ee7d5e3b6
+      AMI: ami-074635ff24f54d2c9
     eu-west-1:
-      AMI: ami-09b8c888045e2e9a3
+      AMI: ami-077a9506b1c4ea285
     eu-west-2:
-      AMI: ami-0043e8105a5ff6f9b
+      AMI: ami-00f79ffe07b2871d8
     eu-west-3:
-      AMI: ami-024351f6e97acc2b9
+      AMI: ami-036512155b058cc35
     me-south-1:
-      AMI: ami-01f323da5388ba825
+      AMI: ami-0cf666b81384ad611
     sa-east-1:
-      AMI: ami-00baacaab0a614366
+      AMI: ami-0cd2c289744aa4d41
     us-east-1:
-      AMI: ami-04e814f85be5f1d1d
+      AMI: ami-0dd058c7ffcd3d4fe
     us-east-2:
-      AMI: ami-08887d2a12ce1684a
+      AMI: ami-0117e4f841e687341
     us-west-1:
       AMI: ami-00ceec5f3ea7dd820
     us-west-2:
-      AMI: ami-0a2bf3f5ee514919a
+      AMI: ami-0140c3eb056b43a8c
 Resources:
   HPAnyWareCACInstance:
     Type: 'AWS::EC2::Instance'

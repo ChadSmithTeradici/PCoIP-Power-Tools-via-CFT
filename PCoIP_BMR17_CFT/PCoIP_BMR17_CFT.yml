@@ -23,9 +23,11 @@ Metadata:
           - SecurityGroup
       - 
         Label: 
-          default: "PCoIP Configuration parameters"
+          default: "Instance login creds and PCoIP registration Code"
         Parameters: 
-          - PCoIPRegKey
+          - RegistrationCode
+          - User
+          - Password
           
 Parameters:
   VpcId:

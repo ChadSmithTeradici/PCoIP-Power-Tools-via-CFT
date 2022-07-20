@@ -20,7 +20,7 @@ For more information about CloudFormation, please visit https://aws.amazon.com/c
 - [Perforce clients tools on  EPIC Unreal 4 PCoIP Ultra Marketplace AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-UR4-PF-CFT/PCoIP-UR4-PF-CFT.yml)
 - [NVIDIA Omniverse and CloudXR tools on PCoIP Ultra Marketplace AMI]
 - [Black Magic Resolve 17 Markeplace AMI with PCoIP Ulta BYOL license](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP_BMR17_CFT/PCoIP_BMR17_CFT.yml)
-- [Black Magic Resolve 17.4.3 on PCoIP Ultra Marketplace Win2019 AMI](
+- [Black Magic Resolve 17.4.3 on PCoIP Ultra Marketplace Win2019 AMI](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP_BMR17_CFT/PCoIP_Win19_BMR17_CFT)
 ---
 ## Perforce client tools on PCoIP Ultra Marketplace AMI
 Creates a HP Anyware PCoIP Ultra Windows 2019 Perforce client tools and extra utilites. 

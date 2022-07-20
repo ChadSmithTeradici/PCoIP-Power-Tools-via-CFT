@@ -31,19 +31,13 @@ Parameters:
     Type: String
     Description: Select a NVIDIA GPU enabled instance for your workload.
     Default: g4dn.2xlarge
-    AllowedValues:
-      - g4dn.xlarge
-      - g4dn.2xlarge
+    AllowedValues
       - g4dn.4xlarge
       - g4dn.8xlarge
       - g4dn.16xlarge
-      - g5.xlarge
-      - g5.2xlarge
       - g5.4xlarge
       - g5.8xlarge
       - g5.16xlarge
-      - g3s.xlarge
-      - g3s.2xlargee
       - g3s.4xlarge
       - g3s.8xlarge
       - g3s.16xlarge
@@ -123,7 +117,7 @@ Resources:
          - DeviceName: /dev/sda1
            Ebs:
              VolumeType: gp2
-             VolumeSize: 200     
+             VolumeSize: 300     
       UserData:
          Fn::Base64:
             !Sub |         

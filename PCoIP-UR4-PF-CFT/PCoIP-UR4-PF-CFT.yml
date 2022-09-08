@@ -133,7 +133,6 @@ Resources:
                   # Get out of the Registry
                   Pop-Location
                   # remove unneeded desktop shortcuts
-                  # remove unneeded desktop shortcuts
                   Remove-Item "C:\Users\Public\Desktop\Teradici PCoIP Clients.url"
                   Remove-Item "C:\Users\Public\Desktop\Teradici Website.url"
                   Remove-Item "C:\Users\Administrator\Desktop\EC2 Feedback.website"
@@ -149,7 +148,7 @@ Resources:
                   choco install git
                   choco install 7zip
                   choco install notepadplus
-                  choco install visualstudio2019community
+                  choco install visualstudio2017community
                   # add desktop shortcuts
                   $SourceFileLocation = "C:\Program Files\Perforce\p4v.exe"
                   $ShortcutLocation = "C:\Users\Public\Desktop\P4V.lnk"

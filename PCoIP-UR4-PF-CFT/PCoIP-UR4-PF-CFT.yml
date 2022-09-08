@@ -146,6 +146,10 @@ Resources:
                   choco install googlechrome
                   choco install p4v
                   choco install jetbrains-rider
+                  choco install git
+                  choco install 7zip
+                  choco install notepadplus
+                  choco install visualstudio2019community
                   # add desktop shortcuts
                   $SourceFileLocation = "C:\Program Files\Perforce\p4v.exe"
                   $ShortcutLocation = "C:\Users\Public\Desktop\P4V.lnk"

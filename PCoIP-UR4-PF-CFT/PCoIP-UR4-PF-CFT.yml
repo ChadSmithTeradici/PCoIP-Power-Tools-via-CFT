@@ -145,6 +145,7 @@ Resources:
                   # Install appliactions
                   choco install googlechrome
                   choco install p4v
+                  choco install jetbrains-rider
                   # add desktop shortcuts
                   $SourceFileLocation = "C:\Program Files\Perforce\p4v.exe"
                   $ShortcutLocation = "C:\Users\Public\Desktop\P4V.lnk"

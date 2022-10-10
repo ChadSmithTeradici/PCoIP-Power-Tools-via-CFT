@@ -27,6 +27,12 @@ This directory contains CloudFormation templates and related scripts for deployi
 **Diagram below is a high-level overview of the Cloud Formation template:**
 
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/GPIC-CFT-Parts.png?raw=true)
+ 
+ Network Configuration- Script will ask what Virtual Private Cloud (VPC) and what subnet should the instance be deployed in? These must be pre-existing resources and subnet MUST be apart of the VPC selected.
+ 
+ G4 / G5 Instance type - Baseline images are built to be deployed on Nvidia technologies, GPUs are pre-selected that have various CPU, memory and GPU resouces. Please consult with following links to see what requirements are best. AWS G4dn instance family  AWs G5 instance family
+ 
+ 
 
 
 __Note: These templates are suitable for creating reference deployments for demonstration, evaluation, or development purposes. The infrastructure created may not meet the reliability, availability, or security requirements of your organization.__

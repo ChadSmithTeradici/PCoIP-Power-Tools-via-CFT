@@ -6,5 +6,9 @@ Deploy EC2 instances based off a HP Anyware Windows 2019 Epic Unreal 4 AWS marke
 # CloudFormation Templates
 ## Introduction
 Have all your most used tools and utilities per industry workflow available in a single step with the performance and HP Anyware PCoIP Ultra by deploying via a cloud formation template. 
-This directory contains CloudFormation templates and related scripts for deploying HP Anyware (PCoIP) components on AWS. These templates can be downloaded and optionally modified before use. 
+This directory contains CloudFormation templates and related scripts for deploying HP Anyware (PCoIP) components on AWS. These templates can be downloaded and optionally modified before use.
+
+Diagram below is a high-level overview of the Cloud Formation template:
+
+
 __Note: These templates are suitable for creating reference deployments for demonstration, evaluation, or development purposes. The infrastructure created may not meet the reliability, availability, or security requirements of your organization.__

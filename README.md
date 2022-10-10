@@ -8,6 +8,7 @@ Choose from four available templates and further customize to meeting your requi
 2. HP Anyware on Windows 2019 (no game engine pre-installed)
 3. HP Anyware on Windows 2019 with Blender version 3.1.1
 4. HP Anyware on Windows 2019 with O3DE (Open 3D Engine)
+
 Note: templates will have the following additional open-source tools installed on the instances on initial launch as well
 - Perforce Client tools (P4V)
 - Visual Studio 2017 community

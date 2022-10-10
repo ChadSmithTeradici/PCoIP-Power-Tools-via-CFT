@@ -34,7 +34,25 @@ This directory contains CloudFormation templates and related scripts for deployi
 
   **HP Anyware marketplace image** - Base on selected marketplace image you will have pre-built image with either HP Anyware on Window 2019 server (or) HP Anyware on Windows 2019 server + Epic unreal 4 and is available in every AWS region.
   
-  **Deployment Script** - A additional deployment script will run on instance creation that will install the extra utilities not already bundled in the image build. Also, if the Blender (or) O3DE cloud formation templates(CFT) where choosen, those game engines will be installed with this step. Becuase of this step a deployment script may take an extra couple of minutes to finish. **Note:** the deployment script section of the CFT is customizable.
+  **Deployment Script** - A additional deployment script will run on instance creation that will install the extra utilities not already bundled in the image build. Also, if the Blender (or) O3DE cloud formation templates (CFT) where choosen, those game engines will be installed with this step. Becuase of this step a deployment script may take an extra couple of minutes to finish. **Note:** the deployment script section of the CFT is customizable.
 
 
 __Note: These templates are suitable for creating reference deployments for demonstration, evaluation, or development purposes. The infrastructure created may not meet the reliability, availability, or security requirements of your organization.__
+
+# Deployment of solution
+
+## Objectives
+
++ Select one of the four game builds by selecting on of the URL(s)
++ Create an IAM role/policy to lock down access to instances
++ Apply Policy to user and programmatic access to resources 
++ Download and configure AWS CLI 
++ Install PCoIP Client software
++ Create script and set permission on client.
+
+## Costs
+
+This tutorial uses billable components of AWS Cloud and assumes Teradici subscription, including the following:
++   [AWS EC2 Instance](https://aws.amazon.com/pm/ec2/), including vCPUs, memory, disk, and GPUs
++   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications.
+

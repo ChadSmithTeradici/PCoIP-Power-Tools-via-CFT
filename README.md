@@ -10,7 +10,7 @@ This directory contains CloudFormation templates and related scripts for deployi
 
 Diagram below is a high-level overview of the Cloud Formation template:
 
- ![image](https://github.com/ChadSmithTeradici/AWS_EC2_PCoIP_QuickConnect_Script/blob/main/images/AWS_EC2_PCoIP_QuickConnect.jpg)
+ ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/GPIC-CFT-Parts.png?raw=true)
 
 
 __Note: These templates are suitable for creating reference deployments for demonstration, evaluation, or development purposes. The infrastructure created may not meet the reliability, availability, or security requirements of your organization.__

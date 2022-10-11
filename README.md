@@ -58,8 +58,12 @@ This tutorial uses billable components of AWS Cloud and assumes Teradici subscri
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications.
 
 ## Read and Agree to EULA for HP Anyware AWS marketplace offering
+In order
 
 ## Select the Cloud Formation Temlate (CFT) for your game build
+
+![image]
+
 
 ## Launching the CFT
 

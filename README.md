@@ -68,7 +68,7 @@ In order
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png)
 
 
-![image](
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/o3DE-small.png)
 
 
 ## Launching the CFT

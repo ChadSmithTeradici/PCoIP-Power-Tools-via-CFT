@@ -43,10 +43,10 @@ __Note: These templates are suitable for creating reference deployments for demo
 
 ## Objectives
 
-+ Read and Except the EULA agreement for the underlying marketplace offerings
++ Read and Agree the EULA agreement for the underlying marketplace offerings
 + Select one of the four game builds by selecting on of the URL(s)
 + By clicking on URL it will automatically open the Cloud Formation Template wizard
-+ Configure the seetings in the CFT (VPC, network, Instance Type, Key Name, Security Group)
++ Configure the settings in the CFT (VPC, network, Instance Type, Key Name, Security Group)
 + Launch CFT, gather login credentials and IP address
 + Access EC2 Instance via HP Anyware client
 
@@ -57,3 +57,14 @@ This tutorial uses billable components of AWS Cloud and assumes Teradici subscri
 +   [AWS EC2 Instance](https://aws.amazon.com/pm/ec2/), including vCPUs, memory, disk, and GPUs
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications.
 
+## Read and Agree to EULA for HP Anyware AWS marketplace offering
+
+## Select the Cloud Formation Temlate (CFT) for your game build
+
+## Launching the CFT
+
+## Configuring the setting within the CFT
+
+## Launch the CFT, gather IP and login credentials
+
+## Access the EC2 Instance via HP Anyware client

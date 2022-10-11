@@ -60,7 +60,7 @@ This tutorial uses billable components of AWS Cloud and assumes Teradici subscri
 ## Read and Agree to EULA for HP Anyware AWS marketplace offering
 The cloud formation template leverages a baseline Teradici managed marketplace image that comes bundled with Base OS of Microsoft Windows Server 2019, HP Anyware remote desktop protocol. We have partnered with Epic to have Unreal version 4 game engine pre-installed on one as one of the deployment options. In order to gain access to these images, you must go to the AWS marketplace offering page and agree to the EULA before proceeding. If you have prevously agreed one of the two HP Anyware marketplace offering, you don't have to reregister. 
 
-**Note:** by agreeing to the EULA you will not be charged be charged until you build an instance. 
+**Note:** by agreeing to the EULA you will not be charged be until you build an instance. 
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png) To 
 

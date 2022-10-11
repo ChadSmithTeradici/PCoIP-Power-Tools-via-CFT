@@ -65,6 +65,9 @@ In order
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png)
 
 
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png)
+
+
 ## Launching the CFT
 
 ## Configuring the setting within the CFT

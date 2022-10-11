@@ -43,9 +43,10 @@ __Note: These templates are suitable for creating reference deployments for demo
 
 ## Objectives
 
++ Read and Except the EULA agreement for the underlying marketplace offerings
 + Select one of the four game builds by selecting on of the URL(s)
-+ Create an IAM role/policy to lock down access to instances
-+ Apply Policy to user and programmatic access to resources 
++ By clicking on URL it will automatically open the Cloud Formation Template wizard
++ Configure the seetings in the CFT (VPC, network, Instance Type, 
 + Download and configure AWS CLI 
 + Install PCoIP Client software
 + Create script and set permission on client.

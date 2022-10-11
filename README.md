@@ -50,7 +50,6 @@ __Note: These templates are suitable for creating reference deployments for demo
 + Launch CFT, gather login credentials and IP address
 + Access EC2 Instance via HP Anyware client
 
-
 ## Costs
 
 This tutorial uses billable components of AWS Cloud and assumes Teradici subscription, including the following:
@@ -79,7 +78,7 @@ From the marketplace page, select **Subscribe** to the offering to continue.
 
 Use the back arrow to come back to this page to proceed to the next step.
 
-## Select the Cloud Formation Temlate (CFT) for your game build
+## Launching the Cloud Formation Template
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png)
 
@@ -92,7 +91,6 @@ Use the back arrow to come back to this page to proceed to the next step.
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/HPA-small.png)
 
-## Launching the CFT
 
 ## Configuring the setting within the CFT
 

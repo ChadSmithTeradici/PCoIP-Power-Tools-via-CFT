@@ -62,7 +62,7 @@ In order
 
 ## Select the Cloud Formation Temlate (CFT) for your game build
 
-![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo (2).png?raw=true)
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png)
 
 
 ## Launching the CFT

@@ -72,7 +72,7 @@ The cloud formation template leverages a baseline Teradici managed marketplace i
 
 From the marketplace page, select **Subscribe** to the offering to continue.
 
-![image](
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Continue2Subscribe.png)
 
 ## Select the Cloud Formation Temlate (CFT) for your game build
 

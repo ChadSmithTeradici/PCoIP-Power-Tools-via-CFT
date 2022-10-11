@@ -77,14 +77,6 @@ Use the back arrow to come back to this page to proceed to the next step.
 [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-UR4-PF-CFT.yml&stackName=hpaepic) &emsp; [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-Blender-PF-CFT.yml&stackName=hpablender) &emsp; [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/o3DE-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-O3DE-PF-CFT.ymll&stackName=hpao3de) &emsp; [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/HPA-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-PF-CFT.yml&stackName=hpagpic)
 
 
-
-
-
-
-
-[![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/HPA-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-PF-CFT.yml&stackName=hpagpic)
-
-
 ## Configuring the setting within the CFT
 
 ## Launch the CFT, gather IP and login credentials

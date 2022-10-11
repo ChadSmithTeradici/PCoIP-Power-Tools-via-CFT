@@ -62,7 +62,7 @@ The cloud formation template leverages a baseline Teradici managed marketplace i
 
 **Note:** When you sybscribe you will not be charged be until you build and run an instance. 
 
-CLICK ON the game-engine icon to subscribe to the correct HP Anyware marketplace version, then in marketplace 
+CLICK ON the game-engine icon to subscribe to the correct HP Anyware marketplace version: 
 
 [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://aws.amazon.com/marketplace/pp/prodview-mj35z5mqzmanm?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
 
@@ -75,6 +75,8 @@ CLICK ON the game-engine icon to subscribe to the correct HP Anyware marketplace
 From the marketplace page, select **Subscribe** to the offering to continue.
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Continue2Subscribe.png)
+
+Use the back arrow to come back to this page to proceed to the next step.
 
 ## Select the Cloud Formation Temlate (CFT) for your game build
 

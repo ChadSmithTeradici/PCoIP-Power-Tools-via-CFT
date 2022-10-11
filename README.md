@@ -64,10 +64,7 @@ The cloud formation template leverages a baseline Teradici managed marketplace i
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png) To 
 
-[!image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png)(https://thecodebuzz.com/how-to-add-image-to-excel-files-using-npoi/)
-
-
-[![name]https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://thecodebuzz.com/how-to-add-image-to-excel-files-using-npoi/)
+[![name] https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://thecodebuzz.com/how-to-add-image-to-excel-files-using-npoi/)
 
 
 

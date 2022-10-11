@@ -82,6 +82,8 @@ Use the back arrow to come back to this page to proceed to the next step.
 
 ## Setting parameters and configurations within the CFT
 
+![image]
+
 ## Launch the CFT, gather IP and login credentials
 
 ## Access the EC2 Instance via HP Anyware client

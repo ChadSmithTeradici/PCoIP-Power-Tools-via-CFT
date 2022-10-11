@@ -58,7 +58,18 @@ This tutorial uses billable components of AWS Cloud and assumes Teradici subscri
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications.
 
 ## Read and Agree to EULA for HP Anyware AWS marketplace offering
-In order
+In order build off the 
+
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png)
+
+
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png)
+
+
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/o3DE-small.png)
+
+
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/HPA-small.png)
 
 ## Select the Cloud Formation Temlate (CFT) for your game build
 

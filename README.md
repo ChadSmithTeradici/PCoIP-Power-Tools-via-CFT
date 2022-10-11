@@ -62,11 +62,7 @@ The cloud formation template leverages a baseline Teradici managed marketplace i
 
 **Note:** by agreeing to the EULA you will not be charged be until you build an instance. 
 
-![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png) To 
-
-[![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://thecodebuzz.com/how-to-add-image-to-excel-files-using-npoi/)
-
-
+[![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://aws.amazon.com/marketplace/pp/prodview-mj35z5mqzmanm?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
 
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png)

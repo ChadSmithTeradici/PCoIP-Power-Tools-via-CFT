@@ -57,11 +57,9 @@ This tutorial uses billable components of AWS Cloud and assumes Teradici subscri
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications.
 
 ## Read and Agree to subcription for HP Anyware AWS marketplace offering
-The cloud formation template leverages a baseline Teradici managed marketplace image that comes bundled with Base OS of Microsoft Windows Server 2019, HP Anyware remote desktop protocol. We have partnered with Epic to have Unreal version 4 game engine pre-installed on one as one of the deployment options. In order to gain access to these images, you must go to the AWS marketplace offering page and agree and subscribe before proceeding. If you have prevously agreed one of the two HP Anyware marketplace offering, you don't have to reregister. 
-
-**Note:** When you sybscribe you will not be charged be until you build and run an instance. 
-
-'CLICK ON' the game-engine icon to subscribe to the correct HP Anyware marketplace version: 
+The cloud formation template leverages a baseline Teradici managed marketplace image that comes bundled with Base OS of Microsoft Windows Server 2019, HP Anyware remote desktop protocol. We have partnered with Epic to have Unreal version 4 game engine pre-installed on one as one of the deployment options. In order to gain access to these images, you must go to the AWS marketplace offering page and agree and subscribe before proceeding. If you have prevously agreed one of the two HP Anyware marketplace offering, you don't have to reregister. **Note:** When you sybscribe you will not be charged be until you build and run an instance.
+ 
+**'CLICK ON'** the game-engine icon to subscribe to the correct HP Anyware marketplace version: 
 
 [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://aws.amazon.com/marketplace/pp/prodview-mj35z5mqzmanm?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
 

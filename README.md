@@ -57,21 +57,25 @@ This tutorial uses billable components of AWS Cloud and assumes Teradici subscri
 +   [AWS EC2 Instance](https://aws.amazon.com/pm/ec2/), including vCPUs, memory, disk, and GPUs
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications.
 
-## Read and Agree to EULA for HP Anyware AWS marketplace offering
-The cloud formation template leverages a baseline Teradici managed marketplace image that comes bundled with Base OS of Microsoft Windows Server 2019, HP Anyware remote desktop protocol. We have partnered with Epic to have Unreal version 4 game engine pre-installed on one as one of the deployment options. In order to gain access to these images, you must go to the AWS marketplace offering page and agree to the EULA before proceeding. If you have prevously agreed one of the two HP Anyware marketplace offering, you don't have to reregister. 
+## Read and Agree to subcription for HP Anyware AWS marketplace offering
+The cloud formation template leverages a baseline Teradici managed marketplace image that comes bundled with Base OS of Microsoft Windows Server 2019, HP Anyware remote desktop protocol. We have partnered with Epic to have Unreal version 4 game engine pre-installed on one as one of the deployment options. In order to gain access to these images, you must go to the AWS marketplace offering page and agree and subscribe before proceeding. If you have prevously agreed one of the two HP Anyware marketplace offering, you don't have to reregister. 
 
-**Note:** by agreeing to the EULA you will not be charged be until you build an instance. 
+**Note:** When you sybscribe you will not be charged be until you build and run an instance. 
 
 [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://aws.amazon.com/marketplace/pp/prodview-mj35z5mqzmanm?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)
 
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png)
 
+[![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png?raw=true)](https://aws.amazon.com/marketplace/pp/prodview-boeg6hiewus3o?sr=0-1&ref_=beagle&applicationId=AWSMPContessa)
+
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/o3DE-small.png)
 
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/HPA-small.png)
+
+From the marketplace page, select **Subscribe** to the offering to continue
 
 ## Select the Cloud Formation Temlate (CFT) for your game build
 

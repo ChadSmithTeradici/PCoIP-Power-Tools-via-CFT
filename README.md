@@ -78,6 +78,8 @@ Use the back arrow to come back to this page to proceed to the next step.
 
 [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Unreal-logo-small.png?raw=true)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-UR4-PF-CFT.yml&stackName=hpaepic) &emsp; &emsp; [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/blender-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-Blender-PF-CFT.yml&stackName=hpablender) &emsp; &emsp; [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/o3DE-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-O3DE-PF-CFT.ymll&stackName=hpao3de) &emsp; &emsp; [![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/HPA-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-PF-CFT.yml&stackName=hpagpic)
 
+[![name](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/o3DE-small.png)](https://console.aws.amazon.com/cloudformation/home?#/stacks/quickcreate?templateURL=https://hpagpicbucket4scripts.s3.us-west-2.amazonaws.com/HPA-O3DE-PF-CFT.ymll&stackName=hpaode)
+
 **NOTE:** HP Anyware build doesn't include a game-engine but includes Perforce client tools and utlities.
 
 ## Setting parameters and configurations within the CFT

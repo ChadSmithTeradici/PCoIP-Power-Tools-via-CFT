@@ -45,12 +45,11 @@ __Note: These templates are suitable for creating reference deployments for demo
 
 ## Objectives
 
-+ Read and Agree the EULA agreement for the underlying marketplace offerings
++ Read and Subscriber too the EULA agreement for the underlying marketplace offerings
 + Select one of the four game builds by selecting on of the URL(s)
 + By clicking on URL it will automatically open the Cloud Formation Template wizard
 + Configure the settings in the CFT (VPC, network, Instance Type, Key Name, Security Group)
-+ Launch CFT, gather login credentials and IP address
-+ Access EC2 Instance via HP Anyware client
++ Gather login credentials / IP address and sccess EC2 Instance via HP Anyware client
 
 ## Costs
 
@@ -93,13 +92,7 @@ Use the back arrow to come back to this page to proceed to the next step.
 
 To Launch the CFT - Press the **Create Stack** button to continue.
 
-## Gathering Login info IP and credentials
-
- ![image](https://raw.githubusercontent.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/a97d26121b66cbdec4366d3c2ecfb9491a8700a3/CFT-Output.png?raw=true)
- 
- ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/getPasswordLAG.png?raw=true)
-
-## Access the EC2 Instance via HP Anyware client
+## Gathering Login info IP / credentials and access the EC2 Instance via HP Anyware client
 
 In this section, you will establish a connection to your instance using PCoIP. You will need to install a PCoIP client on your client system that will be used to initiate the session to the EC2 Instance in AWS. Depending on your network topology, use will either connect to the local IP (or) ephemeral/elastic Public IP (or) Fully Qualified Domain Names (FQDN)
 

@@ -132,8 +132,14 @@ In this section, you will establish a connection to your instance using PCoIP. Y
  
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-client-Login.png?raw=true)
  
+ 11. You will be promoted to select a host to connect, in this senerio you will only have one choice. *(When using a connection broker you have be entitled to muiltiple instances)* **Click** on the instance name to establish a connection to host.
+ 
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-InstanceSelect.png?raw=true)
  
+ 12. The Launching session processes does take a few extra seconds on initial connection, subsequent connection start almost instantly. 
+ 
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Laucnhing.png?raw=true)
+ 
+ 13. Once presented your remote deskop, you will be presented a Anyware PCoIP Client menu to allow tasks like USB transfer, full screen and multiple monitor support.
  
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Session.png?raw=true)

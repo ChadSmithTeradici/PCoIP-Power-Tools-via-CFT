@@ -102,3 +102,5 @@ To Launch the CFT - Press the **Create Stack** button to continue.
 ## Access the EC2 Instance via HP Anyware client
 
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP%20Client%20Icon.png?raw=true)
+ 
+ ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP%20Client%20new.png?raw=true)

@@ -124,6 +124,9 @@ In this section, you will establish a connection to your instance using PCoIP. Y
  8. Enter in your **IP address or FQDN** previously identified in previous section. (optionally) enter a name to **Connection Name** field then **SAVE**, if you want to save connection.
 
   9. Next, you will get a 'Cannot verify your connection to IP' warning. This error is becuase a 3rd party trusted certificate has not been install on the host. You can select the **Connect Insecurely** option to continue. **Note:** you can modify this behavior by going into the client setting > Advanced > Security Modes
+
+
+  10. Finally, enter in the OS login credentials for **Windows** it would be **Administrator** and the password can be [retreived](https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-windows-admin-password/) via EC2 console after provisioning is complete
  
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-client%20-EnterInfo.png?raw=true)
  

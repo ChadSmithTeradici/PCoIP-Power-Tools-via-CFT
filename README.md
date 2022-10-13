@@ -7,7 +7,7 @@ Choose from four available templates and further customize to meeting your requi
 1. HP Anyware on Windows 2019 instance with EPIC unreal version 4
 2. HP Anyware on Windows 2019 (no game engine pre-installed)
 3. HP Anyware on Windows 2019 with Blender version 3.3.1
-4. HP Anyware on Windows 2019 with O3DE (Open 3D Engine)
+4. HP Anyware on Windows 2019 with O3DE (Open 3D Engine) version 22.10.0
 
 Note: templates will have the following additional open-source tools installed on the instances on initial launch.
 - Perforce Client tools (P4V)

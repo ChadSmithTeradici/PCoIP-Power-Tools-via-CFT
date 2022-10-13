@@ -81,7 +81,7 @@ Use the back arrow to come back to this page to proceed to the next step.
 
 **NOTE:** HP Anyware build doesn't include a game-engine but includes Perforce client tools and utlities.
 
-## Setting parameters and configurations within the CFT
+## Setting parameters and launching the CFT
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/CFT-Questions.png)
 

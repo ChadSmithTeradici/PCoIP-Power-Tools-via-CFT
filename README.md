@@ -96,5 +96,7 @@ To Launch the CFT - Press the **Create Stack** button to continue.
 ## Gathering Login info IP and credentials
 
  ![image](https://raw.githubusercontent.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/a97d26121b66cbdec4366d3c2ecfb9491a8700a3/CFT-Output.png?raw=true)
+ 
+ ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/getPasswordLAG.png?raw=true)
 
 ## Access the EC2 Instance via HP Anyware client

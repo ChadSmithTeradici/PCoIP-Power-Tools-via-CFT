@@ -91,7 +91,6 @@ Use the back arrow to come back to this page to proceed to the next step.
 4.	**KeyName:** Select the Key name of your Key Pair. The key pair will be used to generate your Windows Administrator password after the Instance has been started. If you haven’t generated a Key Pair, log into the [EC2 dashboard](https://console.aws.amazon.com/ec2), navigate to the left-side bar under Network & Security > Key Pairs > create new Key Pair
 5.	**RDPLocation:** The automatically generated security group associated to the instance has a rule to allow a back-door RDP (port 3889) communications to the instance for troubleshooting and HP Anywhere patching. We recommend locking this port down by entering in your workstations IP address. This address can be seen [What Is My IP?](https://www.whatismyip.com/) Quickly See your IP Address. Once your external IP has been identified, you must append a */32* to create the security group. entry.
 
-
 ## Launch the CFT, gather IP and login credentials
 
 ## Access the EC2 Instance via HP Anyware client

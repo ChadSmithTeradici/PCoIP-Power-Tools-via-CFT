@@ -112,3 +112,5 @@ To Launch the CFT - Press the **Create Stack** button to continue.
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-InstanceSelect.png?raw=true)
  
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Laucnhing.png?raw=true)
+ 
+ ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Session.png?raw=true)

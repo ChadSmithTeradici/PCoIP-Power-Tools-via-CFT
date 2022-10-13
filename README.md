@@ -93,6 +93,6 @@ Use the back arrow to come back to this page to proceed to the next step.
 
 To Launch the CFT - Press the **Create Stack** button to continue.
 
-## Launch the CFT, gather IP and login credentials
+## Gathering Login info IP and credentials
 
 ## Access the EC2 Instance via HP Anyware client

@@ -85,7 +85,6 @@ Use the back arrow to come back to this page to proceed to the next step.
 
 ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/CFT-Questions.png)
 
-**Network Configuration**
 1.	**VcpId** : This field is the virtual private cloud within your AWS region in which you want to deploy the solution in. If no other VPC has been created, you can the (Default) VPC automatically created.
 2.	**SubnetId:** This field you MUST select a subnet that has been generated in the same VPC associated above. If no other subnet has been created, you can use the (Default) subnet automatically.
 3.	**Instance Type:** This drop-list is pre-populated with NVIDIA enabled instance types. Care must be taken to ensure that your selected instances IS available in your AWS region and Available Zone (AZ). As a general rule, almost all G4dn instance types are available in all regions, which G5 instances are available in most popular regions. Check these webpages to verify your instance resource requirements.

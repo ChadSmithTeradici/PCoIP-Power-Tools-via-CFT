@@ -115,31 +115,31 @@ In this section, you will establish a connection to your instance using PCoIP. Y
 
 1. From the client system, start your PCoIP client per OS. Typically the PCoIP client will have a icon:
 
-   ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP%20Client%20Icon.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP%20Client%20Icon.png?raw=true)
  
  7. When the PCoIP client starts for the first time, it will ask to **Add aconnection**. 
  
-   ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-new.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-new.png?raw=true)
  
  8. Enter in your **IP address or FQDN** previously identified in previous section. (optionally) enter a name to **Connection Name** field then **Add Connection**, if you want to save connection.
 
-  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-client%20-EnterInfo.png?raw=true)
+    ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-client%20-EnterInfo.png?raw=true)
 
   9. Next, you will get a 'Cannot verify your connection to IP' warning. This error is becuase a 3rd party trusted certificate has not been install on the host. You can select the **Connect Insecurely** option to continue. **Note:** you can modify this behavior by going into the client setting > Advanced > Security Modes
 
 
   10. Finally, enter in the OS login credentials for **Windows** it would be **Administrator** and the password can be [retreived](https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-windows-admin-password/) via EC2 console after provisioning is complete
  
-   ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-client-Login.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-client-Login.png?raw=true)
  
  11. You will be promoted to select a host to connect, in this senerio you will only have one choice. *(When using a connection broker you have be entitled to muiltiple instances)* **Click** on the instance name to establish a connection to host.
  
-   ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-InstanceSelect.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-InstanceSelect.png?raw=true)
  
  12. The Launching session processes does take a few extra seconds on initial connection, subsequent connection start almost instantly. 
  
-   ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Laucnhing.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Laucnhing.png?raw=true)
  
  13. Once presented your remote deskop, you will be presented a Anyware PCoIP Client menu to allow tasks like USB transfer, full screen and multiple monitor support.
  
-   ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Session.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-Session.png?raw=true)

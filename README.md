@@ -1,7 +1,7 @@
 # HP Anyware and Perforce Client tools for AWS GPIC instances
 Curated Game Production in Cloud (GPIC) instance(s) that are pre-installed with HP Anyware, Perforce client tools, game engine(s) and utilities to get a developer up and running in AWS.
 
-Deploy EC2 Nvidia graphics enabled instances with  Windows 2019, game engine, HP Anyware, Perforce client tools and various game production utiliies. Start with Epic Unreal 4 AWS marketplace image. (or) HP Anyware with Windows 2019 AWS marketplace images. Perforce client tools (P4V) and other commonly used utilities are provisioned  on instance start-up to streamline your deployment in the cloud.
+Deploy EC2 Nvidia graphics enabled instances with  Windows 2019, game engine, HP Anyware, Perforce client tools and various game production utilities. Start with Epic Unreal 4 AWS marketplace image. (or) HP Anyware with Windows 2019 AWS marketplace images. Perforce client tools (P4V) and other commonly used tools are provisioned  on instance start-up to streamline your deployment in the cloud.
 
 Choose from four available templates and further customize to meeting your requirements by modifying the templates
 1. HP Anyware on Windows 2019 instance with EPIC unreal version 4
@@ -29,11 +29,11 @@ This GitHub repo contains the four CFT templates for deploying HP Anyware (PCoIP
  
    **Existing VPC / network**- Script will ask what Virtual Private Cloud (VPC) and what subnet should the instance be deployed in? These must be pre-existing resources and subnet MUST be apart of the VPC selected.
 
-   **G4 / G5 Instance(s)** - Baseline images are built to be deployed on Nvidia technologies, GPUs are pre-selected that have various CPU, memory and GPU resouces. Please consult with following links to see what requirements are best. [AWS G4dn instance family](https://aws.amazon.com/ec2/instance-types/g4/)  and [AWS G5 instance family](https://aws.amazon.com/ec2/instance-types/g5/)
+   **G4 / G5 Instance(s)** - Baseline images are built to be deployed on Nvidia technologies, GPUs are pre-selected that have various CPU, memory and GPU resources. Please consult with following links to see what requirements are best. [AWS G4dn instance family](https://aws.amazon.com/ec2/instance-types/g4/)  and [AWS G5 instance family](https://aws.amazon.com/ec2/instance-types/g5/)
 
   **HP Anyware marketplace image** - Base on selected marketplace image you will have pre-built image with either HP Anyware on Window 2019 server (or) HP Anyware on Windows 2019 server + Epic unreal 4 and is available in every AWS region. You must subscribe to the AWS marketplace offering before deploying a CFT.
   
-  **Deployment Script** - A additional deployment script will run on instance creation that will install the extra utilities not already bundled in the image build. Also, if the Blender (or) O3DE cloud formation templates (CFT) where choosen, these game engines will be installed with this step. Becuase of this a deployment script may take an extra couple of minutes to finish. **Note:** the deployment script section of the CFT is customizable. Average deployment time is between 10 and 20 minutes.
+  **Deployment Script** - A additional deployment script will run on instance creation that will install the extra utilities not already bundled in the image build. Also, if the Blender (or) O3DE cloud formation templates (CFT) where chosen, these game engines will be installed with this step. Because of this a deployment script may take an extra couple of minutes to finish. **Note:** the deployment script section of the CFT is customizable. Average deployment time is between 10 and 20 minutes.
 
 __Note: These templates are suitable for creating reference deployments for demonstration, evaluation, or development purposes. The infrastructure created may not meet the reliability, availability, or security requirements of your organization.__
 
@@ -54,8 +54,8 @@ This tutorial uses billable components of AWS Cloud and assumes Teradici subscri
 +   [AWS EC2 Instance](https://aws.amazon.com/pm/ec2/), including vCPUs, memory, disk, and GPUs
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications.
 
-## Read and Agree to subcription for HP Anyware AWS marketplace offering
-The cloud formation template leverages a baseline Teradici managed marketplace image that comes bundled with Base OS of Microsoft Windows Server 2019, HP Anyware remote desktop protocol. We have partnered with Epic to have Unreal version 4 game engine pre-installed on one as one of the deployment options. In order to gain access to these images, you must go to the AWS marketplace offering page and agree and subscribe before proceeding. If you have prevously agreed one of the two HP Anyware marketplace offering, you don't have to reregister. **Note:** When you sybscribe you will not be charged be until you build and run an instance.
+## Read and Agree to subscription for HP Anyware AWS marketplace offering
+The cloud formation template leverages a baseline Teradici managed marketplace image that comes bundled with Base OS of Microsoft Windows Server 2019, HP Anyware remote desktop protocol. We have partnered with Epic to have Unreal version 4 game engine pre-installed on one as one of the deployment options. In order to gain access to these images, you must go to the AWS marketplace offering page and agree and subscribe before proceeding. If you have previously agreed one of the two HP Anyware marketplace offering, you don't have to reregister. **Note:** When you subscribe you will not be charged be until you build and run an instance.
  
 **'CTRL + CLICK'** On the game-engine icon to open a new tab in browser and subscribe to the correct HP Anyware marketplace offering: 
 

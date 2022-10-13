@@ -6,6 +6,7 @@ Deploy EC2 Nvidia graphics enabled instances with  Windows 2019, game engine, HP
 ## Perforce Intergration
 This solution only installs the Perforce client tools (P4V) and it is assumed a Perforce Helix Core Server is already stood-up either on-premises (or) in cloud. If you need purchase Perforce helix core server, you have the option of procuring the [perforce helix server](https://aws.amazon.com/marketplace/pp/prodview-koqs2fm5wwsos?sr=0-1&ref_=beagle&applicationId=AWSMPContessaom) from the AWS marketplace. 
 
+## Templates Options
 Choose from four available templates and further customize to meeting your requirements by modifying the templates
 1. HP Anyware on Windows 2019 instance with EPIC unreal version 4
 2. HP Anyware on Windows 2019 (no game engine pre-installed)

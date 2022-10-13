@@ -117,7 +117,7 @@ In this section, you will establish a connection to your instance using PCoIP. Y
 
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP%20Client%20Icon.png?raw=true)
  
- 1. When the PCoIP client starts for the first time, it will ask create a new connection*. 
+ 1. When the PCoIP client starts for the first time, it will ask to **Add aconnection**. 
  
  ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/PCoIP-Client-new.png?raw=true)
  

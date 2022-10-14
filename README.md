@@ -68,7 +68,7 @@ The cloud formation template leverages a baseline Teradici managed marketplace i
 
 From the marketplace page, select **Subscribe** to the offering to continue.
 
-![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/Continue2Subscribe.png)
+![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/images/Continue2Subscribe.png)
 
 Use the back arrow to come back to this page to proceed to the next step.
 

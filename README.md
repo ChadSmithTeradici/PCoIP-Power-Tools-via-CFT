@@ -29,7 +29,7 @@ This GitHub repo contains the four CFT templates for deploying HP Anyware (PCoIP
 
 **Diagram below is a high-level overview of the Cloud Formation template:**
 
- ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/GPIC-CFT-Parts.png?raw=true)
+ ![image](https://github.com/ChadSmithTeradici/PCoIP-Power-Tools-via-CFT/blob/main/images/GPIC-CFT-Parts.png?raw=true)
  
    **Existing VPC / network**- Script will ask what Virtual Private Cloud (VPC) and what subnet should the instance be deployed in? These must be pre-existing resources and subnet MUST be apart of the VPC selected.
 

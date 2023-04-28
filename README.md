@@ -1,7 +1,7 @@
 # HP Anyware and Perforce Client tools for AWS GPIC instances
 Curated Game Production in Cloud (GPIC) instance(s) that are pre-installed with HP Anyware, Perforce client tools, game engine(s) and utilities to get a developer up and running in AWS.
 
-Deploy EC2 Nvidia graphics enabled instances with  Windows 2019, game engine, HP Anyware, Perforce client tools and various game production utilities. Start with Epic Unreal 4/5 AWS marketplace image. (or) HP Anyware with Windows 2019/2022 AWS marketplace images. Perforce client tools (P4V) and other commonly used tools are provisioned  on instance start-up to streamline your deployment in the cloud.
+Deploy EC2 Nvidia graphics enabled instances with  Windows 2019/2022, game engine, HP Anyware, Perforce client tools and various game production utilities. Start with Epic Unreal 4/5 AWS marketplace image. (or) HP Anyware with Windows 2019/2022 AWS marketplace images. Perforce client tools (P4V) and other commonly used tools are provisioned  on instance start-up to streamline your deployment in the cloud.
 
 ## Perforce Intergration
 This solution only installs the Perforce client tools (P4V) and it is assumed a Perforce Helix Core Server is already stood-up either on-premises (or) in cloud. If you need purchase Perforce helix core server, you have the option of procuring the [perforce helix server](https://aws.amazon.com/marketplace/pp/prodview-koqs2fm5wwsos?sr=0-1&ref_=beagle&applicationId=AWSMPContessaom) from the AWS marketplace. 

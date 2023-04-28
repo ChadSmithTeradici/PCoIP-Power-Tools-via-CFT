@@ -1,13 +1,14 @@
 # HP Anyware and Perforce Client tools for AWS GPIC instances
 Curated Game Production in Cloud (GPIC) instance(s) that are pre-installed with HP Anyware, Perforce client tools, game engine(s) and utilities to get a developer up and running in AWS.
 
-Deploy EC2 Nvidia graphics enabled instances with  Windows 2019, game engine, HP Anyware, Perforce client tools and various game production utilities. Start with Epic Unreal 4 AWS marketplace image. (or) HP Anyware with Windows 2019 AWS marketplace images. Perforce client tools (P4V) and other commonly used tools are provisioned  on instance start-up to streamline your deployment in the cloud.
+Deploy EC2 Nvidia graphics enabled instances with  Windows 2019, game engine, HP Anyware, Perforce client tools and various game production utilities. Start with Epic Unreal 4/5 AWS marketplace image. (or) HP Anyware with Windows 2019/2022 AWS marketplace images. Perforce client tools (P4V) and other commonly used tools are provisioned  on instance start-up to streamline your deployment in the cloud.
 
 ## Perforce Intergration
 This solution only installs the Perforce client tools (P4V) and it is assumed a Perforce Helix Core Server is already stood-up either on-premises (or) in cloud. If you need purchase Perforce helix core server, you have the option of procuring the [perforce helix server](https://aws.amazon.com/marketplace/pp/prodview-koqs2fm5wwsos?sr=0-1&ref_=beagle&applicationId=AWSMPContessaom) from the AWS marketplace. 
 
 ## Templates Options
 Choose from four available templates and further customize to meeting your requirements by modifying the templates
+1. HP Anyware on Windows 2022 instance with EPIC unreal version 5
 1. HP Anyware on Windows 2019 instance with EPIC unreal version 4
 2. HP Anyware on Windows 2019 (no game engine pre-installed)
 3. HP Anyware on Windows 2019 with Blender version 3.3.1
@@ -15,7 +16,7 @@ Choose from four available templates and further customize to meeting your requi
 
 Note: templates will have the following additional open-source tools installed on the instances on initial launch.
 - Perforce Client tools (P4V)
-- Visual Studio 2017 (or) 2019 community
+- Visual Studio 2017 (or) 2019 community - UE5
 - Google Chrome browser
 - JetBrains Rider
 - git
@@ -35,7 +36,7 @@ This GitHub repo contains the four CFT templates for deploying HP Anyware (PCoIP
 
    **G4 / G5 Instance(s)** - Baseline images are built to be deployed on Nvidia technologies, GPUs are pre-selected that have various CPU, memory and GPU resources. Please consult with following links to see what requirements are best. [AWS G4dn instance family](https://aws.amazon.com/ec2/instance-types/g4/)  and [AWS G5 instance family](https://aws.amazon.com/ec2/instance-types/g5/)
 
-  **HP Anyware marketplace image** - Base on selected marketplace image you will have pre-built image with either HP Anyware on Window 2019 server (or) HP Anyware on Windows 2019 server + Epic unreal 4 and is available in every AWS region. You must subscribe to the AWS marketplace offering before deploying a CFT.
+  **HP Anyware marketplace image** - Base on selected marketplace image you will have pre-built image with either HP Anyware on Window 2019 server (or) HP Anyware on Windows 2019 server + Epic unreal 4 (or) HP Anyware on Windows 2022 server + Epic unreal 5 and is available in every AWS region. You must subscribe to the AWS marketplace offering before deploying a CFT.
   
   **Deployment Script** - A additional deployment script will run on instance creation that will install the extra utilities not already bundled in the image build. Also, if the Blender (or) O3DE cloud formation templates (CFT) where chosen, these game engines will be installed with this step. Because of this a deployment script may take an extra couple of minutes to finish. **Note:** the deployment script section of the CFT is customizable. Average deployment time is between 10 and 20 minutes.
 
